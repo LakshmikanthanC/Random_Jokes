@@ -152,5 +152,44 @@ Supported on all modern browsers:
 Edit CSS variables in **style.css**
 
 ```css
-:r
+:root {
+  --primary-color: #6366f1;
+  --secondary-color: #f59e0b;
+  --background: #f8fafc;
+}
 ```
+
+### Add More Joke Categories
+
+Edit the **JOKE_APIS** object in **script.js**
+
+```javascript
+const JOKE_APIS = {
+  general: "https://official-joke-api.appspot.com/random_joke",
+  programming: "https://v2.jokeapi.dev/joke/Programming?type=single"
+};
+```
+
+---
+
+# 📝 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+Steps to contribute:
+
+1. Fork the repository
+2. Create a new branch
+3. Make improvements
+4. Submit a Pull Request
+
+---
+
+
+⭐ If you like this project, consider **starring the repository**!
