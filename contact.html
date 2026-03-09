@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact the Random Joke Generator team">
+    <title>Contact - Random Joke Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html" class="logo">😂 JokeGen</a>
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="jokes.html">Jokes</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+        <button id="darkModeBtn" class="dark-mode-btn" aria-label="Toggle dark mode">🌙</button>
+    </div>
+</nav>
+
+<div class="container">
+    <h1 class="fade-in">Contact Us</h1>
+    <p style="color: var(--text-secondary); margin-bottom: 2rem;">We'd love to hear from you! Send us a message and we'll respond as soon as possible.</p>
+    
+    <div class="fade-in">
+        <div id="formSuccess" class="form-success">
+            ✅ Thank you! Your message has been sent successfully.
+        </div>
+        
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Your Name *</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required aria-required="true">
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Your Email *</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required aria-required="true">
+            </div>
+            
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="What's this about?">
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Your Message *</label>
+                <textarea id="message" name="message" placeholder="Write your message here..." required aria-required="true"></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="width: 100%;">📨 Send Message</button>
+        </form>
+        
+        <div style="margin-top: 3rem; text-align: center; color: var(--text-secondary);">
+            <p>Other ways to reach us:</p>
+            <p>📧 email@example.com</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Random Joke Generator. Made with ❤️ for comedy lovers!</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
